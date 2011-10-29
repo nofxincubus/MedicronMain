@@ -42,11 +42,6 @@ module Mlogin
 
     # Enable the asset pipeline
     config.assets.enabled = true
-    
-    config.assets.precompile += ['demo.png']
-    config.assets.precompile += ['demo1.png']
-    config.assets.precompile += ['demo2.png']
-    config.assets.precompile += ['slide.css']
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
