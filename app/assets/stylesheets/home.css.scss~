@@ -1,0 +1,166 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.clear {clear: both;height: 0;line-height: 0;}
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+.clearfix {height: 1%;}
+.clearfix {display: block;}
+
+#panel {
+	//width: 100%;
+	//height: 250px;
+	//color: #999999;
+	//background: #272727;
+	position: relative;
+	z-index: 2;
+}
+
+body
+{
+	background:url(images/webbackg.png), repeat-x;
+	height: 100%; 
+	font: Arial, Helvetica, sans-serif
+}
+
+h1 {
+	font-size: 1.8em;
+	//padding: 5px 0 10px;
+	margin: 0;
+	//color: white;
+}
+
+h2{
+	font-size: 1.2em;
+	padding: 10px 0 5px;
+	margin: 0;
+	//color: white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+h3{
+	font-size: 1.7em;
+}
+
+label {
+	font:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+p {
+	margin: 5px 0;
+	padding: 0;
+}
+
+.content {
+	margin: 0 auto;
+	//padding-top: 15px;
+	text-align: left;
+	font-size: 1em;
+	width 400px;
+}
+
+table {
+	font:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+	
+
+.content .left {
+	width: 250px;
+	float: left;
+	//padding: 0 15px;
+	//border-left: 1px solid #333;
+}
+
+.content .left .clearfix{
+	padding-top: 30px;
+	//border-left: 1px solid #333;
+}
+
+.content .right {
+	//border-right: 1px solid #333;
+}
+
+.content form {
+	margin: 0 0 10px 0;
+}
+.content .grey {
+	width: 80px;
+}
+
+
+.content input.field {
+	border: 1px #1A1A1A solid;
+	width: 100px;
+	height: 16px;
+}
+
+/* BUTTONS */
+/* Login and Register buttons */
+.bt_login {
+	//display: block;
+	//float: left;
+	//clear: left;
+	text-decoration:none;
+	height: 40px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	font-size:18px;
+	margin: 10px 0;
+	background:#A6CAF0;
+	color:#FFF;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-top-left-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	border-top-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+}
+
+input.bt_login {
+	width: 74px;
+	
+}
+
+input.bt_register {
+	width: 94px;
+	color: black;
+	
+}
+
+.lost-pwd {
+	display: block;
+	float:left;
+	clear: right;
+	//padding: 15px 5px 0;
+	font-size: 0.95em;
+	text-decoration: underline;
+}
+
+.donation {
+	border-style:solid;
+	border-width:thin;
+}
+
+.donation:hover {
+	border-style:solid;
+	border-width:thin;
+	background:url(../donationback.png) repeat-x;
+}
+
+img {
+	border:none;
+}

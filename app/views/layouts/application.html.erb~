@@ -10,9 +10,9 @@
 <body>
 <table align="center" height="60px">
 <tr>
-<td width="400px" valign="left"><%= image_tag("medicronlogo.png", :alt => "") %></td>
+<td width="400px" valign="left"><%= image_tag("medicronlogo.png", :alt => "Sample App") %></td>
 <td valign="middle" align="right" width="400px">
-<a class="imglink" href="login.html" style="background:none;"><%= image_tag("register.png", :alt => "") %><br /></a>Click to Sign up for Newsletters
+<a class="imglink" href="login.html" style="background:none;"><%= image_tag("register.png", :alt => "Sample App") %><br /></a>Click to Sign up for Newsletters
 </td>      
 </tr>
 </table>

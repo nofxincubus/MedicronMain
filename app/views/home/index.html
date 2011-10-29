@@ -1,3 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>medicron</title>
+    <link rel="stylesheet" type="text/css" href="slide.css" media="screen" />
+    
+    <!-- PNG FIX for IE6 -->
+    <!-- http://24ways.org/2007/supersleight-transparent-png-in-ie6 -->
+    <!--[if lte IE 6]>
+        <script type="text/javascript" src="login_panel/js/pngfix/supersleight-min.js"></script>
+    <![endif]-->
+    
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="ulslide.js" type="text/javascript"></script>
+    
+    <?php echo $script; ?>
+</head>
+
+<body style="background:url(webbackg.png) repeat-x;height: 100%; font:Arial, Helvetica, sans-serif">
+<table align="center" height="60px">
+<tr>
+<td width="400px" valign="left"><img src="medicron logo.png" width="274" height="61" /></td>
+<td valign="middle" align="right" width="400px">
+<a class="imglink" href="login.html" style="background:none;"><img src="register.png" width="200" height="61" /><br /></a>Click to Sign up for Newsletters
+</td>      
+</tr>
+</table>
 <HR width="780px" SIZE="1" NOSHADE>
 <table  align="center" cellpadding="10px">
 <tr>
@@ -18,13 +47,13 @@ Most importantly, Medicron will allow the citizens to have a more effective and 
 <td align="right" valign="middle" width="550px">
 <ul id="slide1">
             <li>
-                <%= image_tag("demo.png", :alt => "") %>
+                <img src="demo.png" alt="" />
             </li>
             <li>
-                <%= image_tag("demo2.png", :alt => "") %>
+                <img src="demo2.png" alt="" />
             </li>
             <li>
-                <%= image_tag("demo3.png", :alt => "") %>
+                <img src="demo3.png" alt="" />
             </li>
 </ul>
  <script type="text/javascript">
@@ -77,4 +106,7 @@ If you want to help us out in any way possible, please <a href="mailto:hasanz@um
 </td>
 </tr>
 </table>
+
+</body>
+</html>
 

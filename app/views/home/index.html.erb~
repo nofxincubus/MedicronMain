@@ -18,7 +18,7 @@ Most importantly, Medicron will allow the citizens to have a more effective and 
 <td align="right" valign="middle" width="550px">
 <ul id="slide1">
             <li>
-                <%= image_tag("demo.png", :alt => "") %>
+                <%= image_tag("demo1.png", :alt => "") %>
             </li>
             <li>
                 <%= image_tag("demo2.png", :alt => "") %>
